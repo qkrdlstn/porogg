@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "main-screen.css";
+@import "bulid-screen.css";
+@import "champion.css";
+@import "tier.css";
+* {
+  box-sizing: border-box;
+}
+
+#bigscreen {
+  position: absolute;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+}
+@media screen and (min-width: 1800px) {
+  #bigscreen {
+    display: none;
+  }
+}

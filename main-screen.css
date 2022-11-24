@@ -1,0 +1,157 @@
+.main-screen__header {
+  height: 45px;
+  width: 100%;
+
+  background-color: RGBa(54, 52, 77, 0.5);
+  display: flex;
+  padding: 15px 380px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid #a3afb1;
+}
+.main-screen__header-main {
+  font-weight: 600;
+}
+.main-screen__header-span {
+  width: 82%;
+  color: #a3afb1;
+}
+.main-screen__header-span span:first-child {
+  border-left: 1px solid #a3afb1;
+}
+.main-screen__header-span span {
+  padding: 0px 20px;
+  border-right: 1px solid #a3afb1;
+  font-size: 12px;
+}
+.main-screen__header-span span:last-child {
+  border-right: none;
+}
+.main-screen__header-lang {
+  font-size: 12px;
+}
+.main-screen__header-lang span {
+  margin-left: 5px;
+}
+@keyframes spanani {
+  from {
+    transform: none;
+  }
+  to {
+    color: white;
+  }
+}
+.main-screen__header-span:hover span {
+  animation: spanani 0.2s ease-in-out forwards;
+}
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 380px;
+  align-items: center;
+  background-color: RGBa(54, 52, 77, 0.6);
+}
+.status-bar__img {
+  height: 45px;
+  width: 70px;
+  display: flex;
+  background-color: #222222;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.main-screen {
+  background-image: url("포로.PNG");
+}
+
+.status-bar__img img {
+  height: 25px;
+  width: 25px;
+}
+.status-bar__img i {
+  position: relative;
+  top: -5px;
+  left: -5px;
+}
+.status-bar__span {
+  width: 70%;
+  font-size: 18px;
+  color: white;
+}
+@keyframes status-bar__span-ani {
+  from {
+    transform: none;
+  }
+  to {
+    font-weight: 600;
+  }
+}
+.status-bar__span:hover {
+  animation: status-bar__span-ani 0.2s ease-in-out forwards;
+}
+
+.status-bar__back {
+  display: flex;
+}
+
+.status-bar__back input {
+  width: 165px;
+  height: 35px;
+  background-color: #2d2f37;
+  text-decoration: none;
+  color: #7684a1;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.status-bar__back-flex {
+  width: 80px;
+  height: 35px;
+  color: white;
+  display: block;
+  background-color: #23252b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 12px;
+}
+.main-screen__select {
+  padding: 20px 390px;
+  display: flex;
+  background-color: RGBa(54, 52, 77, 0.8);
+}
+.main-screen__select div {
+  margin-right: 50px;
+  color: white;
+}
+.main-screen__select div:first-child {
+  text-decoration: underline 2px;
+  text-underline-position: under;
+}
+.main-screen__notice {
+  background-color: #b04dff;
+  padding: 15px 380px;
+  display: flex;
+  font-size: 12px;
+  color: white;
+}
+.main-screen__notice div {
+  width: 13px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: white;
+  color: #b04dff;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.main-screen__notice span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

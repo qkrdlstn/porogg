@@ -1,0 +1,142 @@
+.tier-header {
+  height: 50px;
+  width: 380px;
+  background-color: #485583;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 200;
+  background-image: url("티어.png");
+  margin-bottom: 10px;
+}
+.tier-header div:first-child {
+  font-size: 13px;
+  margin: 0px 10px;
+}
+.tier-header__header {
+  position: relative;
+}
+.tier-header__header div:first-child {
+  background-color: #13b5b1;
+  height: 30px;
+  width: 45px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  position: absolute;
+  left: -15px;
+}
+.tier-header__header div:last-child {
+  background-color: #222c50;
+  height: 30px;
+  width: 80px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 11px;
+}
+.tier-header__header span {
+  margin-right: 10px;
+}
+.tier-champion__header {
+  height: 40px;
+  width: 380px;
+  display: flex;
+}
+.tier-champion__header-line {
+  height: 40px;
+  width: 76px;
+  border: 1px solid rgb(168, 168, 168);
+  border-left: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.tier-champion__header-line:first-child {
+  border-left: 1px solid rgb(168, 168, 168);
+  background-color: white;
+  border-top: 3px solid black;
+}
+.tier-champion__header-line img {
+  width: 23px;
+  height: 23px;
+}
+.tier-champion__bar {
+  display: flex;
+  border: 1px solid rgb(168, 168, 168);
+  border-top: none;
+}
+.tier-champion__bar div {
+  width: 60px;
+  height: 32px;
+  background-color: #f0f3f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tier-champion__bar div:first-child {
+  width: 140px;
+  justify-content: flex-start;
+  padding-left: 5px;
+}
+.tier-champion__bar div:nth-child(2) {
+  color: tomato;
+  border-bottom: 2px solid tomato;
+}
+.tier-champion__bar i {
+  margin-left: 5px;
+}
+.tier-champion__main {
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(168, 168, 168);
+  border-top: none;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+.tier-champion__main__champ {
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tier-champion__main__champfirst {
+  width: 140px;
+  justify-content: flex-start;
+}
+.tier-champion__main-number {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  border-top-left-radius: 0px;
+}
+.tier-champion__main__champ:nth-child(2) {
+  background-color: #fafafa;
+}
+.tier-champion__main img {
+  margin: 0px 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.tier-champion__main-number2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #be6215;
+  border-top-left-radius: 0px;
+}

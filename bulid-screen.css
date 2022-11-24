@@ -1,0 +1,66 @@
+.bulid-screen {
+  width: 100vw;
+  height: 500vh;
+  background-color: #f5f5f5;
+}
+.build-screen__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 380px 15px 380px;
+  margin-bottom: 30px;
+}
+.bulid-screen__plus {
+  display: flex;
+}
+.build-screen__second,
+.build-screen__last {
+  display: flex;
+}
+.build-screen__last div {
+  height: 40px;
+  width: 190px;
+  background-color: #ed6767;
+  color: white;
+}
+.build-screen__first,
+.build-screen__second div,
+.build-screen__last div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.build-screen__second div:first-child {
+  height: 40px;
+  width: 135px;
+  background-color: white;
+}
+.build-screen__second div:nth-child(2) {
+  height: 40px;
+  width: 90px;
+  background-color: white;
+}
+.build-screen__second div:last-child {
+  height: 40px;
+  width: 73px;
+  background-color: white;
+}
+.build-screen__second div {
+  margin-left: 5px;
+  border: 0.2px solid rgb(168, 168, 168);
+}
+.build-screen__last div:last-child {
+  border: 0.2px solid rgb(168, 168, 168);
+  background-color: white;
+  color: black;
+}
+.build-screen__last {
+  margin-left: 15px;
+}
+.build-screen__first {
+  font-size: 20px;
+}
+.champion--tier {
+  display: flex;
+}
